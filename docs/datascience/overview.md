@@ -20,6 +20,10 @@ The VS Code Marketplace offers a family of extensions that provide a first-class
 
 <div class="marketplace-extensions-datascience-python"></div>
 
+### The Python Data Science extension pack
+
+We have also created a comprehensive [Python data science extension pack](https://marketplace.visualstudio.com/items?itemName=ms-toolsai.python-ds-extension-pack) that includes both first-party Microsoft and third-party extensions. This extension pack is a great starting point especially for beginners as it includes tools that help to streamline an integrated Python data science experience in VS Code (for [Desktop](https://code.visualstudio.com/download) and [Web](https://vscode.dev/)) and [Codespaces](https://github.com/features/codespaces).
+
 ### Build an extension for notebooks
 
 We welcome (and encourage you to!) build Visual Studio Code extensions for your favorite notebooks tools. After going through [Your First Extension](/api/get-started/your-first-extension.md) tutorial, check out some of the extensions that augment the notebooks development experience in VS Code:

@@ -9,7 +9,7 @@ MetaDescription: A guide to adding AI-powered features to a VS Code extension by
 
 # Language Model API
 
-The Language Model API enables you to [use the Language Model](https://github.com/microsoft/vscode/blob/5d6671dacb9d6a582b9354ea317211a8e2b2f918/src/vscode-dts/vscode.d.ts#L19190) and integrate AI-powered features and natural language processing in your Visual Studio Code extension.
+The [Language Model API](https://github.com/microsoft/vscode/blob/5d6671dacb9d6a582b9354ea317211a8e2b2f918/src/vscode-dts/vscode.d.ts#L19190) enables you to integrate AI-powered features and natural language processing in your Visual Studio Code extension.
 
 You can use the Language Model API in different types of extensions. A typical use for this API is in [chat extensions](/api/extension-guides/chat), where you use a language model to interpret the user's request and help provide an answer. However, the use of the Language Model API is not limited to this scenario. You might use a language model in a [language](/api/language-extensions/overview) or [debugger](/api/extension-guides/debugger-extension) extension, or as part of a [command](/api/extension-guides/command) or [task](/api/extension-guides/task-provider) in a custom extension. For example, the Rust extension might use the Language Model to offer default names to improve its rename experience.
 

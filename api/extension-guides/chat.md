@@ -27,7 +27,7 @@ When a user explicitly mentions a `@participant` in their chat prompt, that prom
 - References to URIs or editor locations
 - File trees (for example, to show a workspace preview when a chat participant proposes to create a new workspace)
 
-To help the user take the conversation further, participants can provide *follow-ups* for each response. Follow-up questions are suggestions that are presented in the chat user interface and might give the user inspiration about the chat extension's capabilities.
+To help the user take the conversation further, participants can provide *follow-ups* for each response. [Follow-up questions](#register-follow-up-requests) are suggestions that are presented in the chat user interface and might give the user inspiration about the chat extension's capabilities.
 
 Participants can also contribute *commands*, which are a shorthand notation for common user intents, and are indicated by the `/` symbol. The extension can then use the command to prompt the language model accordingly. For example, `/explain` is a command for the `@workspace` participant that corresponds with the intent that the language model should explain some code.
 
